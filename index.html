@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Sans+Condensed:ital,wght@0,100;1,200;1,500&family=Kanit:ital,wght@1,300&family=Krona+One&display=swap" rel="stylesheet">
+      
+</head>
+<body>
+
+<div class="main-page">
+ <p>Text Edidor</p>
+</div>
+
+  
+<div class="place-editor">
+
+    <div class="text-editor">
+
+        <div class="tools">
+            <button type='button' class='btn' data-command="Bold"><i class="material-icons">format_bold</i></button>
+            <button type='button' class='btn' data-command="Italic"><i class="material-icons">format_italic</i></button>
+            <button type='button' class='btn' data-command="InsertUnorderedList"><i class="material-icons">list</i></button>
+            
+            <button type='button' class='btn-save btn'><i class="material-icons">save</i></button>
+            
+           
+            <!-- <div class="place" contenteditable="true"></div> -->
+        </div>
+        <div class='space-text'>
+            <div class="place" contenteditable="true"></div>
+        </div>
+    </div>
+</div>
+
+<div class="show-files">
+    
+    <button class='btn-show-files'>Show yourself files</button>
+    <button class='btn-refresh'><i class="material-icons">refresh</i></button>
+
+</div>
+    
+
+    <script src="app.js"></script>
+    <script src="displayFiles.js"></script>
+</body>
+</html>
